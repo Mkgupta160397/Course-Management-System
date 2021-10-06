@@ -1,0 +1,22 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 138 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 22642 0 0
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 4097 1 1532 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2049 12457 3047 0 -1
+ciMethod java/lang/Float floatToIntBits (F)I 2161 1 16601 0 -1
+ciMethod java/lang/Float compare (FF)I 2161 1 6338 0 128
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2081 97 5380 0 -1
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 329 1913 452 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 1 1 2 0 0
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2145 1 4891 0 0
+ciMethod java/util/HashMap replacementTreeNode (Ljava/util/HashMap$Node;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode; 81 1 10 0 -1
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 2697 1 447 0 0
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 2185 1 1368 0 0
+ciMethod java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2049 1 5066 0 0
+ciMethodData java/lang/Object <init> ()V 2 22642 orig 264 72 34 182 82 0 0 0 0 128 4 49 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 145 179 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode treeify ([Ljava/util/HashMap$Node;)V 9 201 1 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode split (Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V 9 81 1 0 -1
+ciMethodData java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2 5380 orig 264 72 34 182 82 0 0 0 0 64 111 63 20 0 0 0 0 176 6 0 0 224 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 1 160 0 0 161 16 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 50 0 2 0 0 0 64 5 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 168 0x70007 0x122 0x40 0x12dd 0x100007 0x12dd 0x50 0x0 0x140005 0x0 0x1672ad40 0x120 0x1672b670 0x2 0x2c0007 0x7b6 0x98 0xc49 0x380005 0xb1 0x1672ad40 0xb96 0x1672b720 0x2 0x3b0004 0x0 0x1672b7d0 0xc47 0x1672b880 0x2 0x3c0003 0xc49 0x3d0 0x450007 0x60f 0xc8 0x1a7 0x510007 0x197 0x90 0x10 0x550007 0x0 0x88 0x10 0x5b0005 0x3 0x25994e0 0x1 0x1672b930 0xc 0x5e0007 0xf 0x38 0x1 0x650003 0x198 0x278 0x6a0004 0xfffffffffffff9e2 0x1672b7d0 0x1 0x0 0x0 0x6d0007 0x61e 0x98 0x0 0x720004 0x0 0x0 0x0 0x0 0x0 0x7b0005 0x0 0x0 0x0 0x0 0x0 0x800003 0x0 0x1b0 0x8e0007 0x222 0xb8 0x610 0x980005 0x0 0x1672ad40 0x5b9 0x1672b670 0x57 0xa20007 0x60e 0x148 0x2 0xa90005 0x0 0x1672ad40 0x2 0x0 0x0 0xac0003 0x2 0xf8 0xb50007 0x1eb 0xc8 0x37 0xc10007 0xe 0xc0 0x29 0xc50007 0x0 0x88 0x29 0xcb0005 0x0 0x1672b930 0x26 0x1672b9e0 0x3 0xce0007 0x29 0x38 0x0 0xd10003 0x0 0x30 0xdb0003 0x214 0xfffffffffffffe80 0xe00007 0x610 0x90 0x1a6 0xec0007 0x1a6 0x40 0x0 0xf10007 0x0 0x20 0x0 0xfd0005 0x0 0x1672ad40 0x1a6 0x0 0x0 0x11c0007 0x11e1 0x50 0x78 0x1200005 0x0 0x1672ad40 0x70 0x1672b670 0x8 0x1270005 0x108 0x1672ad40 0x114f 0x1672b720 0x2 oops 19
